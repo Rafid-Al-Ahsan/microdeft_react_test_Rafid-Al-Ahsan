@@ -8,6 +8,7 @@ import "./index.css";
 import Main from "./component/Main";
 import Registration from "./component/Registration";
 import Login from "./component/Login";
+import AddCourse from "./component/AddCourse";
 
 
 const router = createBrowserRouter([
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login></Login>
+  },
+  {
+    path: "/addcourse",
+    element: <AddCourse></AddCourse>
   }
   
 ]);
