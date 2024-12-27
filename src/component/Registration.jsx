@@ -53,7 +53,7 @@ const Registration = () => {
             });
         }
 
-
+        form.reset();
 
 
     }
@@ -120,7 +120,7 @@ const Registration = () => {
                         <div className="text-center mt-4 text-sm">
                             <p className="text-gray-600">
                                 Already have an account?{' '}
-                                <Link to="/login" className="text-[rgb(0,127,170)] hover:underline">
+                                <Link to="/login" className="text-[rgb(82,82,216)] hover:underline">
                                     Login
                                 </Link>
                             </p>
