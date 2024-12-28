@@ -25,13 +25,13 @@ const Login = () => {
             }
 
             const responseData = await response.json();
-            console.log("Server Response:", responseData);
+            // console.log("Server Response:", responseData);
 
             const token = responseData?.data?.token;
 
             if (token) {
                 localStorage.setItem("authToken", token);
-                console.log("Token stored successfully:", token);
+                // console.log("Token stored successfully:", token);
                 toast.success("Login successful!");
                 navigate("/");
             } else {
