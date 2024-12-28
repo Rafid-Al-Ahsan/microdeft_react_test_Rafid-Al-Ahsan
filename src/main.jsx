@@ -9,6 +9,7 @@ import Main from "./component/Main";
 import Registration from "./component/Registration";
 import Login from "./component/Login";
 import AddCourse from "./component/AddCourse";
+import Card from "./component/card/Card";
 
 
 const router = createBrowserRouter([
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "/addcourse",
     element: <AddCourse></AddCourse>
+  },
+  {
+    path: "/card",
+    element: <Card></Card>
   }
   
 ]);
