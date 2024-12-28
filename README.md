@@ -1,8 +1,32 @@
-# React + Vite
+# microdeft react frontend test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
 
-Currently, two official plugins are available:
+- [Introduction](#introduction)
+- [Installation](#installation)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Introduction
+This web application is build usinig React.js and TailwindCss for a intership test at microdeft. This application contains registration form, login from, a add courses page and a view courses page. A navbar is added to make the navigation between routes easier. 
+
+## Installation
+
+To set up the website on your local machine, follow these steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Rafid-Al-Ahsan/microdeft_react_test_Rafid-Al-Ahsan.git
+cd microdeft_react_test_Rafid-Al-Ahsan-main
+````
+
+2. Install dependencies:
+```bat
+npm install
+```
+
+3. Start the development server:
+```bat
+npm run dev
+```
+
+
