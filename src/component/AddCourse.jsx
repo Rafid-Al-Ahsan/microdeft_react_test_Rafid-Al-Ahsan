@@ -10,7 +10,7 @@ const AddCourse = () => {
         const description = form.description.value;
         const badge_text = form.badge_text.value;
         const badge_color = form.badge_color.value;
-        const instructor_name = form.instructor_name.value;
+        const instructor_name = form.instructor_name.value; 
 
         const token = localStorage.getItem("authToken"); // Retrieve the auth token
 
@@ -27,6 +27,8 @@ const AddCourse = () => {
             });
             return;
         }
+
+       
 
         try {
             const response = await fetch(`https://react-interview.crd4lc.easypanel.host/api/course`, {

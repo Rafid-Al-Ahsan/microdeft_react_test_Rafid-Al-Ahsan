@@ -13,7 +13,7 @@ const Courses = () => {
             if (!token) {
                 toast.error("Authorization token is missing!");
                 return;
-            }
+            }   
 
             try {
                 const response = await fetch("https://react-interview.crd4lc.easypanel.host/api/course", {
